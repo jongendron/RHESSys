@@ -3282,5 +3282,11 @@ struct surface_energy_default {
         double iteration_threshold; /* degrees C */
         };
 
+//07142023LML for debuging info
+#ifdef LIU_CHECK_FIRE_OCCURENCE
+extern FILE *global_debug;
+extern char global_debug_filename[200];
+#endif
+
 #endif
 
